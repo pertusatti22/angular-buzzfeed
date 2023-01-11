@@ -1,4 +1,11 @@
-# AngularBuzzfeed
+#Meu Projeto
+
+Decidi evoluir o projeto com os seguintes itens
+
+- [x] Adicionar botão de começar novamente o questionário
+- [ ] Adicionar uma foto conforme o resultado do quiz
+
+## AngularBuzzfeed
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
 

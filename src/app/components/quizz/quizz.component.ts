@@ -68,4 +68,7 @@ export class QuizzComponent implements OnInit {
     return result
   }
 
+  restart() {
+    window.location.reload();
+  }
 }

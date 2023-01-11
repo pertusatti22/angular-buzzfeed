@@ -71,3 +71,29 @@
   justify-content: center;
   align-items: center;
 }
+
+.btn-restart {
+  background-color: #5cbf2a;
+  border-radius: 16px;
+  border: 1px solid #ffffff;
+  width: 50%;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  padding: 16px 32px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #2f6627;
+}
+
+.btn-restart:hover {
+  border: 1px solid #18ab29;
+  background-color: transparent;
+  color: #2f6627;
+}
+
+.btn-restart:active {
+  position: relative;
+  top: 1px;
+}

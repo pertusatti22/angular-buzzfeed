@@ -25,5 +25,9 @@
   <div *ngIf=finished class="quizz__results">
     <h1> O Seu resultado é: </h1>
     <p> {{ answerSelected }} </p>
+    <br>
+    <button (click)="restart()" class="btn-restart">
+      Iniciar Novamente
+    </button>
   </div>
 </div>
