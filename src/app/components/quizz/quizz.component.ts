@@ -21,6 +21,7 @@ export class QuizzComponent implements OnInit {
 
   finished: boolean = false
 
+  hero: boolean = true
   constructor() { }
 
   ngOnInit(): void {
@@ -51,6 +52,9 @@ export class QuizzComponent implements OnInit {
       const finalAnswer: string = await this.checkResult(this.answers)
       this.finished = true
       this.answerSelected = quizz_questions.results[finalAnswer as keyof typeof quizz_questions.results]
+      if(this.answerSelected === "Você muito provavelmente seria um super vilão!") {
+        this.hero = false
+      }
     }
   }
 

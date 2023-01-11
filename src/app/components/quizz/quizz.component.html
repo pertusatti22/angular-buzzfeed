@@ -24,6 +24,10 @@
 
   <div *ngIf=finished class="quizz__results">
     <h1> O Seu resultado é: </h1>
+
+    <img *ngIf=hero src="assets/images/heros.jpg" alt="" class="result__image">
+    <img *ngIf=!hero src="assets/images/vilain.jpg" alt="" class="result__image">
+
     <p> {{ answerSelected }} </p>
     <br>
     <button (click)="restart()" class="btn-restart">

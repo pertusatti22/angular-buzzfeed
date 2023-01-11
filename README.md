@@ -3,7 +3,7 @@
 Decidi evoluir o projeto com os seguintes itens
 
 - [x] Adicionar botão de começar novamente o questionário
-- [ ] Adicionar uma foto conforme o resultado do quiz
+- [x] Adicionar uma foto conforme o resultado do quiz
 
 ## AngularBuzzfeed
 
